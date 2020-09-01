@@ -1,13 +1,13 @@
-interface Person {
+interface Person10 {
     name: string;
     age?: number;
 }
 
-interface Developer {
+interface Developer2 {
     skills: string[];
 }
 
-interface WebDeveloper extends Person, Developer { }
+interface WebDeveloper extends Person10, Developer2 { }
 
 const webDeveloper: WebDeveloper = {
     name: 'Lee',
